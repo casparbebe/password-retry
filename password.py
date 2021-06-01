@@ -9,7 +9,7 @@ x = 3 # 剩餘機會
 while x >= 1:
 	answer = input('請輸入密碼: ')
 	if answer == password:
-	    print('登入成功')
+	    print('登入成功!')
 	    break
 	elif answer != password:
 		x = x-1
